@@ -24,6 +24,10 @@ Graba el archiv `.env`. (En linux puedes usar el editor `nano` o `vim`).
 Ejecuta docker-compose de este modo:
 
         docker-compose --env-file .env-sample up -d
+        docker-compose up -d  //toma nuestras variables de entorno
+
+
+
 
 Ahora revisa cuantos contenedores están corriendo de este modo:
 
